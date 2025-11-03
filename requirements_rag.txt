@@ -1,0 +1,12 @@
+# Additional requirements for RAGAgent
+# These packages are needed for the RAG functionality
+
+# Core ML libraries for vectorization and similarity calculation
+numpy>=1.21.0
+openai>=1.0.0
+
+# Optional: For more advanced embedding models
+# sentence-transformers>=2.0.0
+
+# Optional: For better performance with large datasets
+# faiss-cpu>=1.7.0  # or faiss-gpu for GPU acceleration 
